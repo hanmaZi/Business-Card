@@ -1,0 +1,57 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Tahoma;
+    
+}
+
+.avatar {
+    width: 110px;
+}
+@keyframes techa{
+    from{background-color:#8D818C ;}
+    to{background-color: cadetblue;}
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #8D818C;
+    color: #E9EBF8;
+    border-bottom: 6px solid #d8cefe;
+    border-top: 3pxpx solid #A5A299;
+    border-right: 3px solid #A5A299;
+    border-left: 3px solid #A5A299;
+    border-radius: 20px;
+     box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.3);
+     animation-name: techa;
+  animation-duration: 4s;
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
